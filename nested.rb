@@ -54,7 +54,6 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
-    dennis_lang = programmer_hash[:dennis_ritchie][:languages]
-    return dennis_lang.join
+    return programmer_hash[:dennis_ritchie][:languages].join
   end
   
