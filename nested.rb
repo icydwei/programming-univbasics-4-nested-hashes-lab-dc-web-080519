@@ -54,6 +54,6 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
-    return programmer_hash[:dennis_ritchie][:languages].String
+    return programmer_hash[:dennis_ritchie][:languages]
   end
   
