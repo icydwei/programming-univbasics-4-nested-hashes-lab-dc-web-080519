@@ -55,6 +55,6 @@ def alan_kay_is_known_for
         }
      }
     dennis_lang = programmer_hash[:dennis_ritchie][:languages]
-    return dennis_lang.split
+    return dennis_lang.join
   end
   
