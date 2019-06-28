@@ -54,6 +54,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
-    return programmer_hash.fetch[:dennis_ritchie][:languages]
+    dennis_lang = programmer_hash[:dennis_ritchie][:languages]
+    return dennis_lang.split
   end
   
